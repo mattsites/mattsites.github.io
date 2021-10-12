@@ -29,35 +29,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
 <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
-
-<script language=JavaScript>
-<!--
-var message="MattSites Has Disabled Right-Clicking";
-///////////////////////////////////
-function clickIE4(){
-if (event.button==2){
-alert(message);
-return false;
-}
-}
-function clickNS4(e){
-if (document.layers||document.getElementById&&!document.all){
-if (e.which==2||e.which==3){
-alert(message);
-return false;
-}
-}
-}
-if (document.layers){
-document.captureEvents(Event.MOUSEDOWN);
-document.onmousedown=clickNS4;
-}
-else if (document.all&&!document.getElementById){
-document.onmousedown=clickIE4;
-}
-document.oncontextmenu=new Function("alert(message);return false")
-// ->
-</script><link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
+<script src="https://www.google.com/recaptcha/api.js" async defer></script><link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
 </head>
 
 <body>
@@ -204,7 +176,9 @@ document.oncontextmenu=new Function("alert(message);return false")
     <div class="form-group"><input type="text" name="subject" value="The Subjest." /></div>
     
     <div class="form-group"><textarea name="body">Your Message To Us</textarea></div>
+    
     <button type="submit" class="pageclip-form__submit">
+    <div class="g-recaptcha" data-sitekey="6Lf528QcAAAAAJVQJmgbBpXpOtHKLDgZdrvZXUzp"></div>
     <span>Send</span>
   </button>
 </form>
