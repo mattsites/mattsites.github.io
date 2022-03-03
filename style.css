@@ -1,0 +1,89 @@
+body {
+    font-family: 'Montserrat';
+    background-image: url("images/background.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 11%;
+    padding-bottom: 0%;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 395%;
+}
+
+h2 {
+    padding-top: 0%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+::selection {
+    color:rgb(31, 214, 214);
+    background-color: rgba(240, 255, 240, 0.644);
+}
+
+.container {
+    height: 200px;
+    position: relative;
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.animate__animated.animate__bounce {
+    --animate-duration: 2s;
+}
+
+button {
+    background-color: rgba(23, 212, 212, 0);
+    border-radius: 6px;
+    border-color: antiquewhite;
+    border-width: 3px;
+    color: white;
+    padding: 7px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+button:hover {
+    background-color:rgba(72, 173, 139, 0.315);
+    border-radius: 6px;
+    border-color: antiquewhite;
+    border-width: 3px;
+    color: white;
+    padding: 7px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+::-webkit-scrollbar {
+    width: 7px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: rgb(182, 181, 181);
+    border-radius: 3px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(143, 143, 143);
+  }

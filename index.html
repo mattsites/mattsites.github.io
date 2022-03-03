@@ -1,150 +1,92 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <title>MS Template</title>
+        <link href="style.css" rel="stylesheet" />
+        <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+        <link rel="shortcut icon" type="image/png" href="images/logo.png"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <style>
+          .overlay {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: rgb(0,0,0);
+            background-color: rgba(0,0,0, 0.9);
+            overflow-x: hidden;
+            transition: 0.5s;
+          }
+          
+          .overlay-content {
+            position: relative;
+            top: 25%;
+            width: 100%;
+            text-align: center;
+            margin-top: 30px;
+          }
+          
+          .overlay a {
+            padding: 8px;
+            text-decoration: none;
+            font-size: 36px;
+            color: #818181fb;
+            display: block;
+            transition: 0.3s;
+          }
+          
+          .overlay a:hover, .overlay a:focus {
+            color: #f1f1f1;
+          }
+          
+          .overlay .closebtn {
+            position: absolute;
+            top: 20px;
+            right: 45px;
+            font-size: 60px;
+          }
+          
+          @media screen and (max-height: 450px) {
+            .overlay a {font-size: 20px}
+            .overlay .closebtn {
+            font-size: 40px;
+            top: 15px;
+            right: 35px;
+            }
+          }
+          </style>
+        <!-- include the widget -->
+        <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    </head>
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>MattSites Websites &amp; Tech, Inc.</title>
-    <meta name="description" content="View the MattSites Website here. We have videos, photos, and the stuff for all your tech needs. To contact us, just visit the contact-us.html page.">
-    <meta property="og:image" content="assets/img/MattSites%20Logo%202021.png">
-    <meta property="og:type" content="website">
-    <link rel="icon" type="image/png" sizes="500x500" href="assets/img/MS%20Logo%20-%20Green.png">
-    <link rel="icon" type="image/png" sizes="500x500" href="assets/img/MS%20Logo%20-%20Green.png">
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin:700">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bitter:400,700">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900">
-    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
-    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
-    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
-    <link rel="stylesheet" href="assets/css/styles.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
-<link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZT7ZDG9D2C"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-ZT7ZDG9D2C');
-</script>
-</head>
-
-<body id="page-top">
-    <nav class="navbar navbar-light navbar-expand-md fixed-top" id="mainNav">
-        <div class="container"><a class="navbar-brand js-scroll-trigger" data-aos="zoom-in" data-aos-delay="500" href="#">MattSites</a><button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" type="button" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" value="Menu"><i class="fa fa-bars"></i></button><span id="navcol-1"><div class="collapse navbar-collapse" id="navbarResponsive">
-    <ul class="navbar-nav ml-auto">
-        <li class="nav-item nav-link js-scroll-trigger"><a class="nav-link active js-scroll-trigger" href="#about">About</a></li>
-        <li class="nav-item nav-link js-scroll-trigger"><a class="nav-link js-scroll-trigger" href="#mj-photos">Photos</a></li>
-        
-        <li class="nav-item nav-link js-scroll-trigger"><a class="nav-link js-scroll-trigger" href="#contact-us">Contact Us</a></li>
-
-        
-    </ul>
-</div></div>
-    </nav>
-    <header class="masthead" style="background: url(&quot;assets/img/Easten%20Water%20Dragon%20(Final).jpg&quot;) right;">
-        <div class="intro-body" style="font-family: 'Source Sans Pro', sans-serif;">
-            <div class="container">
-                <div class="row pulse animated">
-                    <div class="col-lg-8 mx-auto">
-                        <h1 data-bss-disabled-mobile="true" data-bss-hover-animate="pulse" class="brand-heading" style="color: #dddddd;">MattSites</h1>
-                        <p class="intro-text" style="color: #dddddd;">Websites &amp; Tech, Inc.</p><a class="btn btn-link btn-circle" role="button" href="#about"><i class="fa fa-arrow-down animated"></i></a>
-                    </div>
-                </div>
-            </div>
+    <body>
+        <img src="images/logo.png" width="50" height="50"> 
+        <div id="myNav" class="overlay">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <div class="overlay-content">
+            <a href="about.html">About</a>
+            <a href="shop.html">Shop</a>
+            <a href="contact.html">Contact</a>
+          </div>
         </div>
-    </header>
-    <section class="text-center content-section" id="about">
+        <h1  class="animate__animated animate__bounce animate__delay-2s">MattSites</h1>
+        <h2 id="text">Welcome to our website!</h2>
         <div class="container">
-            <div class="row" data-aos="zoom-in">
-                <div class="col-lg-8 mx-auto">
-                    <h2 data-aos="fade-up">About Us</h2>
-                    <p data-aos="fade-up">MattSites is an all-around tech business creating websites. We are mainly common with HTML, CSS, and a bit of JavaScript.</p>
-                    <p data-aos="fade-up">At the moment, MattSites is working on the development of some website templates and an image stock.</p>
-                    <p data-aos="fade-up">If you wanna know more information on us, please don't hesitate to just contact us!<br><br>OUR WEBSITE IS CURRENTLY UNDERGOING SOME BIG UI CHANGES. THIS PAGE WILL SOON LOOK VERY DIFFERENT.</p>
-                </div>
+            <div class="center">
+              <span style="font-size:30px;cursor:pointer" onclick="openNav()"><button>Continue</button></span>
             </div>
-        </div>
-        <div class="brands"></div>
-        <div class="brands"></div>
-        <div class="simple-slider">
-            <div class="swiper-container">
-                <div class="swiper-wrapper"></div>
-                <div class="swiper-pagination"></div>
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
-            </div>
-        </div>
-    </section><section class="text-center download-section content-section" id="mj-photos" style="background-image:url('assets/img/tcp-image.jpg');">
-    <div class="container">
-        <div class="col-lg-8 mx-auto">
-            <h1>The Camera People Website</h1>
-            <p>Did you know that The Camera People has it&#39;s own website. It's powered by MattSites and is full of greate photos. The photos on there may have watermarks but if you have a canva pro subscription, you will be able to view and use them from there.</p><button class="btn btn-outline-primary btn-lg btn-default" type="button"><a href="https://thecamerapeople.mattsites.xyz/">Visit The Site</a></button>
-        </div>
-    </div>
-    <section></section>
-    <section></section>
-</section><section class="text-center content-section" id="contact-us">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 mx-auto">
-                <h2>Contact us</h2>
-                <p>Feel Free To Contact Us At By Clicking This Button</p>
-                <ul class="list-inline banner-social-buttons">
-                    <li class="list-inline-item"></li>
-                    <li class="list-inline-item"></li>
-                    <li class="list-inline-item"><button class="btn btn-primary btn-lg btn-default" type="button"><span class="network-name"><a href="contact.html">Contact Us</a></span></button></li>
-                </ul><small></small>
-            </div>
-        </div>
-    </div>
-</section>
-    <div class="map-clean"></div>
-    <footer><a href="#"> </a><a href="#"> </a>
-        <div class="brands"><a href="partners.html"><img src="assets/img/Logos%20(1).svg" /><img src="assets/img/Logos%20(2).svg" /></a></div>
-        <footer class="footer-dark">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-6 col-md-3 item">
-                        <h3>Services</h3>
-                        <ul>
-                            <li><a href="#">Web design</a></li>
-                            <li><a href="https://thecamerapeople.mattsites.xyz/">Photography</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-6 col-md-3 item">
-                        <h3>About</h3>
-                        <ul>
-                            <li><a href="https://github.com/MattSites">Company</a></li>
-                            <li><a href="#about-us">What We Do</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-6 item text">
-                        <h3>MattSites</h3>
-                        <p>MattSites is a web development company. We create websites. Just inquire on the contact-us page.</p>
-                    </div>
-                    <div class="col item social"><a href="https://github.com/MattSites"><i class="icon ion-social-github"></i></a><a href="https://mattsites.xyz"><i class="fab fa-internet-explorer"></i></a></div>
-                </div>
-                <p class="copyright">MattSites © 2021</p>
-            </div>
-        </footer>
-    </footer>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
-    <script src="assets/js/script.min.js"></script>
-</body>
-
+          </div>
+          <script>
+            function openNav() {
+              document.getElementById("myNav").style.width = "100%";
+            }
+            
+            function closeNav() {
+              document.getElementById("myNav").style.width = "0%";
+            }
+            </script>
+                 
+    </body>
 </html>
