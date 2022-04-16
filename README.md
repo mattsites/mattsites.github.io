@@ -1,4 +1,2 @@
 # mattsites.github.io
-MattSites is an all-around tech business creating websites. We are mainly common with HTML, CSS, and a bit of JavaScript.
-At the moment, MattSites is working on the development of some games for you to play. They will be open-source hosted on GitHub through our organization.
-If you wanna know more information on us, please don't hesitate to just contact us!
+Welcome to MattSites! We are a web development company. Here we have website templates, photos, videos, and more. At the moment, we are still in the process of creating our templates and taking our photos but we have made one of the biggest changes to our website so far. You should also know that this web URL is here to stay. We are planning on staying at mattsites.xyz (we previously had other domains). Hope you enjoy our site!
