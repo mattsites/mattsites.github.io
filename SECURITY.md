@@ -12,3 +12,8 @@ If you find any errors in the site, please check below if it is supported.
 
 ## Reporting a Vulnerability
 If you find any errors in our code, please join our discord server and let us know there, or send us an email at gaming@mattsites.xyz 
+
+<iframe
+  src="https://discord.com/widget?id=920176820597440521&theme=dark"
+  style="width:350px; height:500px;"
+></iframe>
