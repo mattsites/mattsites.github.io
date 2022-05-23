@@ -1,3 +1,99 @@
 body {
     font-family: 'Montserrat';
+    background-color:rgb(32, 32, 32) ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+
+.title {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 7%;
+    padding-bottom: 0%;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 395%;
+}
+
+
+.text {
+    padding-left: 5%;
+    padding-right: 5%;
+    color: blanchedalmond;
+}
+
+::selection {
+    color:rgb(31, 214, 214);
+    background-color: rgba(240, 255, 240, 0.644);
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+  
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(182, 181, 181);
+    border-radius: 3px;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(143, 143, 143);
+}
+  
+.about-us {
+    column-count: 3;
+}
+
+
+/* For the NavBar.
+/* The sidebar menu */
+.sidebar {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+  }
+  
+  /* The sidebar links */
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  /* The button used to open the sidebar */
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color: #444;
+  }
