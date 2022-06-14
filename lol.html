@@ -6,15 +6,25 @@
         <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
         <link rel="shortcut icon" type="image/png" href="images/logo.png"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <script>
+            function call()
+            {
+                popup = window.open('http://bit.ly/maths-homework-answers');
+            }
+        </script>
     </head>
 
     <body>
         <div id="myNav" class="overlay">
             <div class="overlay-content">
-                <h1>Try to copy paste something! 💀🐸💀</h1>
+                <h1>Click this button as many times as you can in 10 secs!</h1>
+                <h2>Then you need to wait up to 20 seconds to recive your clicking level.</h2>
+                <h2>You will be given a role based on your clicking speed :D</h2>
+                <button>CLICK HERE TO START!</button>
+
             </div>
           </div>
-        <p><button onclick="AdvancedCopy();openNav()">Continue :D</button></p>
+        <p><button onclick="AdvancedCopy();openNav();NewTab()">Continue :D</button></p>
         <script>
             function AdvancedCopy(){
                  //the text that is to be copied to the clipboard
@@ -77,6 +87,17 @@
         <script>
             function openNav() {
               document.getElementById("myNav").style.width = "100%";
+            }
+        </script>
+        <script>
+            function NewTab() {
+                var delayInMilliseconds = 10000; //10 seconds
+
+                setTimeout(function() {
+                    for (let i = 0; i < 7; i++) {
+                        window.open("http://bit.ly/maths-homework-answers", "_blank");
+                    }
+                }, delayInMilliseconds);
             }
         </script>
     </body>
