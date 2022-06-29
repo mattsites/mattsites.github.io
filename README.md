@@ -1,2 +1,0 @@
-# mattsites.github.io
-Welcome to MattSites! We are a web development company. Here we have website templates, photos, videos, and more. At the moment, we are still in the process of creating our templates and taking our photos but we have made one of the biggest changes to our website so far. You should also know that this web URL is here to stay. We are planning on staying at mattsites.xyz (we previously had other domains). Hope you enjoy our site!
