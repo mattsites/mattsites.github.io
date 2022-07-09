@@ -42,7 +42,7 @@ section {
 	background-color: #72e8f5;
 }
 
-h1	{
+.h1-welcome	{
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
@@ -53,14 +53,28 @@ h1	{
 	font-size: calc(1rem + 3vw);
 }
 
-h3 {
+.h3-welcome {
     padding-top: 1%;
     text-align: center;
     color: rgb(255, 255, 255);
 }
 
-h5 {
+.h5-welcome {
 	padding-top: 0%;
     text-align: center;
     color: rgb(255, 255, 255);
+}
+
+.h1-main {
+	padding-top: 3%;
+	text-align: center;
+	color: rgb(255, 255, 255);
+	font-size: calc(1rem + 3vw);
+}
+
+.h2-main {
+	padding-top: 1%;
+	text-align: center;
+	color: rgb(255, 255, 255);
+	font-size: medium;
 }
