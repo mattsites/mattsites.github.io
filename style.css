@@ -1,80 +1,41 @@
 * {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
+	overflow-x: hidden;
+	font-family: Montserrat;
 }
-
 body {
-	overflow-y: hidden;
-}
-
-.slider {
-	font-family: sans-serif;
-	scroll-snap-type: x mandatory;	
-	display: flex;
-	-webkit-overflow-scrolling: touch;
-	overflow-x: scroll;
-}
-
-section {
-	border-right: 1px solid black;
-	padding: 1rem;
-	min-width: 100vw;
-	height: 100vh;
-	scroll-snap-align: start;
-	text-align: center;
-	position: relative;
-}
-
-.welcome {
-	background-color: #F5A972;
-}
-
-.about {
-	background-color: #F5F172;
-}
-
-.photos {
-	background-color: #72F57F;
-}
-
-.contact {
-	background-color: #72e8f5;
-}
-
-.h1-welcome	{
-	position: absolute;
-	top: 50%;
-	transform: translateY(-50%);
-	text-align: center;
-	color: white;
 	width: 100%;
-	left: 0;
-	font-size: calc(1rem + 3vw);
+	margin: 0
 }
 
-.h3-welcome {
-    padding-top: 1%;
-    text-align: center;
-    color: rgb(255, 255, 255);
+body .content {
+	width: 100vw;
+	height: 100vh;
+	scroll-snap-type: y mandatory;
+	y-overflow: auto;
 }
 
-.h5-welcome {
-	padding-top: 0%;
-    text-align: center;
-    color: rgb(255, 255, 255);
+body .content section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+	border: 1px solid black;
+	scroll-snap-align: start;
 }
 
-.h1-main {
-	padding-top: 3%;
+.heading-welcome	{
+	font-size: xxx-large;
 	text-align: center;
-	color: rgb(255, 255, 255);
-	font-size: calc(1rem + 3vw);
+	top: 50%;
+	content-align: center;
 }
 
-.h2-main {
-	padding-top: 1%;
+.continue-welcome {
+	padding-top: 50%;
 	text-align: center;
-	color: rgb(255, 255, 255);
-	font-size: medium;
+}
+
+.heading-photography {
+
 }
