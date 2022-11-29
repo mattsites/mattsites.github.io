@@ -39,3 +39,27 @@ body .content section {
 .heading-photography {
 
 }
+
+.section:nth-child(1) {
+	display:flex;
+	justify-content: center;
+	align-content: center;
+}
+
+.heading-welcome {
+	transform: translate(-50%, -50%);
+	left: 50%;
+	top: 50%;
+}
+
+.section:nth-child(2) {
+	display:flex;
+	justify-content: center;
+	align-content: center;
+}
+
+.heading-welcome img{
+	transform: translate(-50%, -50%);
+	left: 50%;
+	bottom: 0px;
+}
