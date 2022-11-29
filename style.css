@@ -44,6 +44,7 @@ body .content section {
 	display:flex;
 	justify-content: center;
 	align-content: center;
+	scroll-snap-align: start;
 }
 
 .heading-welcome {
