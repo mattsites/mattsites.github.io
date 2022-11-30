@@ -24,12 +24,12 @@ body .content section {
 	scroll-snap-align: start;
 }
 
-.heading-welcome	{
+/* .heading-welcome	{
 	font-size: xxx-large;
 	text-align: center;
 	top: 50%;
 	content-align: center;
-}
+} */
 
 .down-arrow {
 	padding-bottom: 5px;
