@@ -25,10 +25,14 @@ body .content section {
 }
 
 .heading-welcome	{
+	position: relative;
 	font-size: xxx-large;
 	text-align: center;
 	top: 50%;
 	content-align: center;
+	transform: translate(-50%, -50%);
+	left: 50%;
+	top: 50%;
 }
 
 .down-arrow {
@@ -45,12 +49,6 @@ body .content section {
 	justify-content: center;
 	align-content: center;
 	scroll-snap-align: start;
-}
-
-.heading-welcome {
-	transform: translate(-50%, -50%);
-	left: 50%;
-	top: 50%;
 }
 
 .section:nth-child(2) {
