@@ -33,6 +33,56 @@ body .content section {
 	transform: translate(-50%, -50%);
 	left: 50%;
 	top: 50%;
+	color: transparent;
+	text-align: center;
+	animation: effect 3s linear infinite;
+}
+
+@keyframes effect {
+	0% {
+		background: #000000;
+		-webkit-background-clip: text;
+	}
+	10% {
+		background: #222222;
+		-webkit-background-clip: text;
+	}
+	20% {
+		background: #444444;
+		-webkit-background-clip: text;
+	}
+	30% {
+		background: #666666;
+		-webkit-background-clip: text;
+	}
+	40% {
+		background: #888888;
+		-webkit-background-clip: text;
+	}
+	50% {
+		background: #999999;
+		-webkit-background-clip: text;
+	}
+	60% {
+		background: #888888;
+		-webkit-background-clip: text;
+	}
+	70% {
+		background: #666666;
+		-webkit-background-clip: text;
+	}
+	80% {
+		background: #444444;
+		-webkit-background-clip: text;
+	}
+	90% {
+		background: #222222;
+		-webkit-background-clip: text;
+	}
+	100% {
+		background: #000000;
+		-webkit-background-clip: text;
+	}
 }
 
 .down-arrow {
