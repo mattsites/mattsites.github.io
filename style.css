@@ -55,7 +55,6 @@ body .content section {
 
 .section:nth-child(2) {
 	display:flex;
-	justify-content: center;
 	align-content: center;
 }
 
