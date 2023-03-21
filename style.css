@@ -24,10 +24,10 @@ body .content section {
 	scroll-snap-align: start;
 }
 
-.heading-welcome	{
+.h1-welcome	{
 	position: relative;
-	font-size: xxx-large;
 	text-align: center;
+	font-size: 200%;
 	top: 50%;
 	content-align: center;
 	transform: translate(-50%, -50%);
@@ -38,76 +38,87 @@ body .content section {
 	animation: effect 3s linear infinite;
 }
 
+.h2-welcome {
+	position: relative;
+	text-align: center;
+	font-size: 125%;
+	content-align: center;
+	transform: translate(-50%, -50%);
+	left: 50%;
+	text-align: center;
+	color: antiquewhite;
+}
+
 @keyframes effect {
 	0% {
-		background: #000000;
+		background: #17DCDE;
 		-webkit-background-clip: text;
 	}
 	10% {
-		background: #222222;
+		background: #17DED1;
 		-webkit-background-clip: text;
 	}
 	20% {
-		background: #444444;
+		background: #17DEBF;
 		-webkit-background-clip: text;
 	}
 	30% {
-		background: #666666;
+		background: #17DEAB;
 		-webkit-background-clip: text;
 	}
 	40% {
-		background: #888888;
+		background: #17DE9F;
 		-webkit-background-clip: text;
 	}
 	50% {
-		background: #999999;
+		background: #17DE8B;
 		-webkit-background-clip: text;
 	}
 	60% {
-		background: #888888;
+		background: #17DE9F;
 		-webkit-background-clip: text;
 	}
 	70% {
-		background: #666666;
+		background: #17DEAB;
 		-webkit-background-clip: text;
 	}
 	80% {
-		background: #444444;
+		background: #17DEBF;
 		-webkit-background-clip: text;
 	}
 	90% {
-		background: #222222;
+		background: #17DED1;
 		-webkit-background-clip: text;
 	}
 	100% {
-		background: #000000;
+		background: #17DCDE;
 		-webkit-background-clip: text;
 	}
 }
 
-.down-arrow {
-	padding-bottom: 5px;
-	text-align: center;
+.parallax {
+	background-image: url("img/background1.jpg");
+
+	/* Set a specific height */
+	min-height: 100%;
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+::-moz-selection { /* Code for Firefox */
+	color: antiquewhite;
+	background: #17DCDE;
+}
+
+::selection {
+	color: antiquewhite;
+	background: #17DCDE;
 }
 
 .heading-photography {
 
-}
-
-.section:nth-child(1) {
-	display:flex;
-	justify-content: center;
-	align-content: center;
-	scroll-snap-align: start;
-}
-
-.section:nth-child(2) {
-	display:flex;
-	align-content: center;
-}
-
-.heading-welcome img{
-	transform: translate(-50%, -50%);
-	left: 50%;
-	bottom: 0px;
 }

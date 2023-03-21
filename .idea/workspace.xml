@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="009b47a0-cd84-43df-b19e-48cace2c221f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/img/background1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/mattsites-logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/down-arrow.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +36,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/matthewbollen/Documents/GitHub/mattsites.github.io&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/mattsites/Documents/GitHub/mattsites.xyz&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -42,6 +44,12 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/img" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/mattsites.github.io/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
@@ -71,6 +79,10 @@
       <workItem from="1669839058319" duration="710000" />
       <workItem from="1669869774528" duration="236000" />
       <workItem from="1671050420973" duration="164000" />
+      <workItem from="1672792334326" duration="376000" />
+      <workItem from="1676530333328" duration="1203000" />
+      <workItem from="1679355432825" duration="825000" />
+      <workItem from="1679379741277" duration="3646000" />
     </task>
     <servers />
   </component>
