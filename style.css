@@ -24,6 +24,11 @@ body .content section {
 	scroll-snap-align: start;
 }
 
+.welcome {
+	background-image: url("img/background.png");
+	background-position: center;
+}
+
 .h1-welcome	{
 	position: relative;
 	text-align: center;
@@ -36,6 +41,7 @@ body .content section {
 	color: transparent;
 	text-align: center;
 	animation: effect 3s linear infinite;
+	background-color: #c7ffee
 }
 
 .h2-welcome {
@@ -96,18 +102,6 @@ body .content section {
 	}
 }
 
-.parallax {
-	background-image: url("img/background1.jpg");
-
-	/* Set a specific height */
-	min-height: 100%;
-
-	/* Create the parallax scrolling effect */
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
 
 ::-moz-selection { /* Code for Firefox */
 	color: antiquewhite;
@@ -117,8 +111,4 @@ body .content section {
 ::selection {
 	color: antiquewhite;
 	background: #17DCDE;
-}
-
-.heading-photography {
-
 }
