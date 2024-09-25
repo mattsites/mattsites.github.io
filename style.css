@@ -1,6 +1,6 @@
 * {
 	overflow-x: hidden;
-	font-family: Montserrat;
+	font-family: Montserrat, monospace, sans-serif;
 }
 body {
 	width: 100%;
@@ -16,8 +16,6 @@ body .content {
 
 body .content section {
 	display: flex;
-	justify-content: center;
-	align-items: center;
 	width: 100vw;
 	height: 100vh;
 	border: 1px solid black;
@@ -25,23 +23,23 @@ body .content section {
 }
 
 .welcome {
-	background-image: url("img/background.png");
+	background-image: url("img/header-background.jpeg");
 	background-position: center;
+	justify-content: center;
+	align-items: center;
 }
 
 .h1-welcome	{
 	position: relative;
 	text-align: center;
-	font-size: 200%;
+	font-size: 500%;
 	top: 50%;
 	content-align: center;
 	transform: translate(-50%, -50%);
 	left: 50%;
-	top: 50%;
 	color: transparent;
-	text-align: center;
 	animation: effect 3s linear infinite;
-	background-color: #c7ffee
+	background-color: #c7ffee;
 }
 
 .h2-welcome {
@@ -51,64 +49,28 @@ body .content section {
 	content-align: center;
 	transform: translate(-50%, -50%);
 	left: 50%;
-	text-align: center;
 	color: antiquewhite;
 }
 
 @keyframes effect {
 	0% {
-		background: #17DCDE;
+		background: #8a54d5;
 		-webkit-background-clip: text;
 	}
-	10% {
-		background: #17DED1;
-		-webkit-background-clip: text;
-	}
-	20% {
-		background: #17DEBF;
-		-webkit-background-clip: text;
-	}
-	30% {
-		background: #17DEAB;
-		-webkit-background-clip: text;
-	}
-	40% {
-		background: #17DE9F;
+	25% {
+		background: #c588ad;
 		-webkit-background-clip: text;
 	}
 	50% {
-		background: #17DE8B;
+		background: #f7b58a;
 		-webkit-background-clip: text;
 	}
-	60% {
-		background: #17DE9F;
-		-webkit-background-clip: text;
-	}
-	70% {
-		background: #17DEAB;
-		-webkit-background-clip: text;
-	}
-	80% {
-		background: #17DEBF;
-		-webkit-background-clip: text;
-	}
-	90% {
-		background: #17DED1;
+	75% {
+		background: #b67bb7;
 		-webkit-background-clip: text;
 	}
 	100% {
-		background: #17DCDE;
+		background: #8a54d5;
 		-webkit-background-clip: text;
 	}
-}
-
-
-::-moz-selection { /* Code for Firefox */
-	color: antiquewhite;
-	background: #17DCDE;
-}
-
-::selection {
-	color: antiquewhite;
-	background: #17DCDE;
 }
